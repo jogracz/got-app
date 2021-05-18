@@ -34,7 +34,7 @@ const Cell = (props: CellProps) => {
       {k === 'allegiances' && Array.isArray(value)
         ? value.map((houseId: string) => (
           <div key={houseId}>
-            <Link to={`/houses/${houseId}`}>{houseId}</Link>
+            <Link to={`/got-app/houses/${houseId}`}>{houseId}</Link>
           </div>
         ))
         : value
