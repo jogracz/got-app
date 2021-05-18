@@ -1,6 +1,6 @@
 {
   "name": "got-app",
-  "homepage:": "https://jogracz.github.io/got-app/",
+  "homepage": "https://jogracz.github.io/got-app/",
   "version": "0.2.0",  
   "private": true,
   "dependencies": {
