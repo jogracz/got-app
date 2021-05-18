@@ -61,7 +61,7 @@ const House = () => {
     return (
       <HouseWrapper>
         <Header>
-          <Link to='/' onClick={cleanHouse}><FiChevronsLeft /></Link>
+          <Link to='/got-app/' onClick={cleanHouse}><FiChevronsLeft /></Link>
           {house.name}
         </Header>
         <InfoWrapper>

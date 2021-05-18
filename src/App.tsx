@@ -33,10 +33,10 @@ const App = () => {
       <Router>
         <AppWrapper>
           <Switch>
-            <Route path='/' exact>
+            <Route path='/got-app/' exact>
               <MainPage />
             </Route>
-            <Route path='/houses/:houseId'>
+            <Route path='/got-app/houses/:houseId'>
               <HousePage />
             </Route>
           </Switch>
