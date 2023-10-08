@@ -10,7 +10,9 @@ const getDyingAge = (born: string, died: string) => {
 
 const getAliveValue = (born: string, died: string) => {
   if (died === '') return 'Yes';
-  return `No, died at ${getDyingAge(born, died)} years old`;  
+  const dyingAge  = getDyingAge(born, died);
+  if (dyingAge) return  `No, died at ${dyingAge} years old`; 
+  return 'No';
 }
 
 const getCharacterName = (name: string, aliases: string[]) => {
