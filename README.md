@@ -1,6 +1,6 @@
 # Simple, responsive Game of Thrones characters app
 
-Check it out here: showcased here: https://jogracz.github.io/got-app
+Check it out here: https://jogracz.github.io/got-app
 
 <img width="429" alt="Zrzut ekranu 2021-05-18 o 13 33 35" src="https://user-images.githubusercontent.com/50405712/118644069-a7743b80-b7dd-11eb-893e-77e5ce75dd78.png">
 
